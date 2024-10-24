@@ -71,7 +71,7 @@ uint32_t total_line_num;
 
 int main(int argc, char const *argv[])
 {
-    const int blockSize = 256 * 1024;
+    const int blockSize = 32;
     uint32_t most_freq_len, most_freq_len_linenum;
     total_line_num = 0;
     auto start = high_resolution_clock::now();

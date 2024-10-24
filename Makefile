@@ -1,6 +1,6 @@
 .PHONY: clean all
 
-CFLAGS = -Wall -g -O2
+CFLAGS = -Wall -g
 targets = filelines filelines_gen testBlocked filelines_avx
 objects = filelines.o find_most_freq.o filelines_baseline.o
 
