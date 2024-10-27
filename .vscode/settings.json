@@ -55,7 +55,10 @@
         "iomanip": "cpp"
     },
     "cSpell.words": [
-        "addrcode"
+        "addrcode",
+        "filelines",
+        "notfull",
+        "prodcons"
     ],
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.intelliSenseMode": "linux-gcc-x86",
