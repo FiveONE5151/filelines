@@ -9,7 +9,34 @@ filelines filepath
 - filelines：程序名
 - filepath: 输入文件file的路径
 
-其中程序有：
+输出如下：
+```
+linenum most_freq_len most_freq_len_linenum
+
+linenum:文件的总行数
+most_freq_len: 出现次数最多的一行长度
+most_freq_len_linemum：对应的行数
+```
+
+当输入文件为:
+```
+1
+345
+123
+abcd
+abc
+abcde
+789
+```
+
+输出结果为:
+```
+7 3 4
+```
+即此文件共7行，最常出现的行长度为3个字符，3个字符的行数共计4行。
+
+# 文件组成
+
 - filelines: baseline
 - filelines_avx:  使用AVX512指令
 - filelines_pc: 使用AVX512指令+生产者-消费者模型
